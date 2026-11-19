@@ -1,0 +1,130 @@
+@media (max-width:992px){
+
+    .input-box{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input-field{
+        width: 100%;
+    }
+
+    .input{
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .search-btn{
+        width: 100%;
+        max-width: 500px;
+        padding: .8rem;
+    }
+
+    .left-column{
+        margin-bottom: 20px;
+    }
+
+    .about-elements{
+        flex-wrap: wrap;
+    }
+
+    .about-elements > div{
+        flex: 1 1 45%;
+    }
+
+    .profile-links{
+        text-align: center;
+        margin-left: 0 !important;
+    }
+
+    .github-profile-link-btn{
+        text-align: center;
+    }
+}
+
+/* mobile */
+@media (max-width:768px){
+
+    .Project-title{
+        font-size: 30px;
+    }
+
+    .header p{
+        font-size: 15px;
+    }
+
+    .input-field{
+        width: 100%;
+    }
+
+    .profilepic{
+        width:130px;
+        height:130px;
+    }
+
+    .about-info{
+        max-width:100%;
+    }
+
+    .about-elements{
+        flex-wrap:wrap;
+    }
+
+    .about-elements > div{
+        flex:1 1 100%;
+    }
+
+    .repo-list .row{
+        text-align:center;
+    }
+
+    .repo-list .col-lg-4{
+        margin-top:10px;
+    }
+
+    .viewmore{
+        text-align:center;
+    }
+
+    .github-link-btn{
+        width:100%;
+    }
+
+}
+
+
+   /* Small Mobile */
+@media (max-width:576px){
+
+    .container{
+        padding-inline:15px;
+    }
+
+    .Project-title{
+        font-size:26px;
+    }
+
+    .input-field{
+        padding:.8rem 2.8rem;
+    }
+
+    .search-btn{
+        width:100%;
+    }
+
+    .profile-links{
+        font-size:16px;
+    }
+
+    .title{
+        font-size:18px;
+    }
+
+    .followers-count,
+    .following-count,
+    .repo-count,
+    .gists-count{
+        font-size:22px;
+    }
+
+}
